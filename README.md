@@ -61,9 +61,8 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: Laakshit D
 RegisterNumber: 212222230071
 */
-```
-#### MULTIPLEXER
-```
+
+i) MULTIPLEXER
 module mux(i0,i1,i2,i3,s0,s1,y);
 input i0,i1,i2,i3,s0,s1;
 output y;
@@ -77,8 +76,8 @@ and(s,s0,s1,i3);
 or(y,p,q,r,s);
 endmodule 
 ```
-#### DEMULTIPLEXER
 ```
+ii) DEMULTIPLEXER
 module mux(y0,y1,y2,y3,s0,s1,i);
 input s0,s1,i;
 output y0,y1,y2,y3;
@@ -93,9 +92,11 @@ endmodulev
 ```
 ### RTL LOGIC  
 #### MULTIPLEXER
+
 ![image](https://github.com/laakshit-D/Exercise-07-Multiplexer-and-De-multiplexer/assets/119559976/22b331b4-3948-4fc8-a7dc-d7af5ce5e563)
 
 #### DEMULTIPLEXER
+
 ![image](https://github.com/laakshit-D/Exercise-07-Multiplexer-and-De-multiplexer/assets/119559976/1e4129ea-7418-4ccf-ac4f-cee905a9eb6b)
 
 ### TIMING DIGRAMS  
@@ -117,8 +118,8 @@ endmodulev
 ![image](https://github.com/laakshit-D/Exercise-07-Multiplexer-and-De-multiplexer/assets/119559976/1badaee8-fe18-4108-9f8e-f0129abd957c)
 
 #### DEMULTIPLEXER
-![image](https://github.com/laakshit-D/Exercise-07-Multiplexer-and-De-multiplexer/assets/119559976/469599a9-29d5-45e2-9fed-c55531aae67a)
 
+![image](https://github.com/laakshit-D/Exercise-07-Multiplexer-and-De-multiplexer/assets/119559976/469599a9-29d5-45e2-9fed-c55531aae67a)
 
 ### TRUTH TABLE 
 #### MULTIPLEXER
